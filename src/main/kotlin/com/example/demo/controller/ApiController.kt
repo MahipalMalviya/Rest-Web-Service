@@ -1,10 +1,10 @@
-package com.example.demo
+package com.example.demo.controller
 
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-class SpringJava4sController {
+class ApiController {
 
     @RequestMapping("/")
     fun welcome(): String {
